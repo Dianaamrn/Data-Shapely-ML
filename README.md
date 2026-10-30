@@ -1,6 +1,6 @@
 # Data Shapley
 
-Assignment 9 for Statistical Methods for Machine Learning, University of Milan.
+## Assignment 9 for Statistical Methods for the course Statistical Methods for Machine Learning 
 
 Based on Amirata Ghorbani and James Zou, [Data Shapley: Equitable Valuation of Data for Machine Learning](https://proceedings.mlr.press/v97/ghorbani19c.html), ICML 2019.
 
