@@ -4,9 +4,9 @@
 
 Based on Amirata Ghorbani and James Zou, [Data Shapley: Equitable Valuation of Data for Machine Learning](https://proceedings.mlr.press/v97/ghorbani19c.html), ICML 2019.
 
-The project estimates how much each training point is worth to a classifier, using Data Shapley with Monte Carlo permutation sampling. It then checks whether removing the lowest-value points improves test accuracy compared with removing points at random. Everything is written from scratch with NumPy and Matplotlib only.
+The project estimates how much each training point is worth to a classifier, using Data Shapley with Monte Carlo permutation sampling. It then checks whether removing the lowest-value points improves test accuracy compared with removing points at random. Everything is written from scratch with NumPy and Matplotlib only. (as the assignment requested it)
 
-The full report is [report/main.pdf](report/main.pdf).
+The full report is [report/Report.pdf](report/Report.pdf).
 
 ## What is in it
 
@@ -26,16 +26,15 @@ Test accuracy change at 20% removal, LOW minus RANDOM, in percentage points:
 | Noisy Penguins | +8.51 | [+7.05, +9.96] | 10 of 10 |
 | Noisy Gaussian | +8.88 | [+7.87, +9.96] | 10 of 10 |
 
-- On clean data, removing low-value points does no better than random removal.
+- On this specific clean dataset, removing low-value points does no better than random removal.
 - With label noise, it clearly helps at every removal fraction.
 - Removing high-value points lowers accuracy in every condition.
 - Low values find the flipped labels well: average AUROC is 0.993 for noisy Penguins and 0.851 for noisy Gaussian.
 
-The full tables and figures are in [notebooks/results.ipynb](notebooks/results.ipynb).
 
 ## How to run
 
-You need Python 3.11 or newer; the results were made with Python 3.13. No GPU and no internet are needed after download.
+You need Python 3.12 or newer; the results were made with Python 3.13.
 
 **1. Get the project and install it**
 
@@ -58,13 +57,11 @@ python run_checks.py
 
 This runs the unit tests and then rebuilds every saved result from the seeds and compares it with what is stored. It should end with `All checks passed.`
 
-**3. Recompute everything from scratch (optional, about 1 hour)**
+**3. Recompute everything from scratch (optional runtime roughly about 1 hour)**
 
 ```
 python run_pipeline.py --fresh
 ```
-
-This empties `results/` and runs every step again: pilot, ten seeds, summary tables, notebooks and checks. The numbers come out identical. Add `--workers 3` to run three seeds at a time. Without `--fresh`, finished steps are skipped, so an interrupted run can be resumed.
 
 **4. Open the notebooks (optional)**
 
@@ -75,49 +72,6 @@ jupyter notebook
 ```
 
 Run them from the `notebooks/` folder. The appendix takes about 15 to 20 minutes; the others are quick.
-
-## What is in each folder
-
-```
-data/raw/
-  penguins.csv                  the Palmer Penguins data, unchanged
-  penguins.provenance.json      where it was downloaded from, its fingerprint and licence
-
-data_shapley/                   all the project code
-  data.py                       loading, cleaning, splitting, scaling, synthetic data, label noise
-  knn.py                        our 3-nearest-neighbour classifier
-  shapley.py                    exact Shapley values (for checks) and the permutation estimators
-  metrics.py                    accuracy, macro-F1 and ranking comparisons
-  experiments.py                LOW, HIGH and RANDOM removal and flipped-label detection
-  pilot.py                      step 1: picks the minimum number of permutations
-  study.py                      step 2: Shapley values, removal and detection for each seed
-  study_summary.py              step 3: combines the ten seeds into summary tables
-  provenance.py                 file fingerprints that tie results to the code
-
-scripts/
-  verify_full_study.py          rebuilds every saved study result from the seeds
-  verify_study_summaries.py     recomputes the summary tables a second way
-
-tests/                          unit tests for each code file
-
-notebooks/
-  data_preparation.ipynb        how the data is built
-  algorithm_checks.ipynb        k-NN and Shapley checks, fast evaluator, pilot
-  results.ipynb                 ten-seed results and all figures
-  appendix.ipynb                extra checks
-
-results/
-  pilot/                        the pilot's record and samples
-  study/seed100 ... seed109/    each seed's Shapley values, permutations, removal results and settings
-  study/study_*.csv             the ten seeds combined (the tables in the report)
-  study/study_*.json            the study settings and the verification records
-  figures/                      the five report figures
-
-report/                         the report (main.pdf) and its LaTeX source
-run_pipeline.py                 runs the whole project
-run_checks.py                   runs the tests and all checks
-pyproject.toml                  install settings and pinned versions
-```
 
 ## Data
 
