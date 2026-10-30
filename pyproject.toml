@@ -8,7 +8,7 @@ version = "0.0.1"
 description = "Data Shapley classification project"
 readme = "README.md"
 # results were produced with Python 3.13 and these exact versions; NumPy versions can change random streams
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = ["numpy==2.5.3", "matplotlib==3.11.2", "nbformat", "nbclient", "ipykernel"]
 
 [project.optional-dependencies]
