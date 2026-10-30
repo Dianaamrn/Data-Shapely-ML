@@ -40,8 +40,8 @@ You need Python 3.11 or newer; the results were made with Python 3.13. No GPU an
 **1. Get the project and install it**
 
 ```
-git clone https://github.com/Dianaamrn/ML.git
-cd ML
+git clone https://github.com/Dianaamrn/Data-Shapely-ML.git
+cd Data-Shapely-ML
 python -m venv .venv
 .venv\Scripts\activate          (Windows)
 source .venv/bin/activate       (Mac or Linux)
