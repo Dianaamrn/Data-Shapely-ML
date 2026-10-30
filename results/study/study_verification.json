@@ -1,0 +1,352 @@
+{
+  "100": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        3099
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "101": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        2999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        2199
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "102": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        2799
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "103": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        3199
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "104": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        3299
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "105": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        3199
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "106": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        3299
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "107": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        3399
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "108": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        3099
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  },
+  "109": {
+    "clean_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        2999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": false
+    },
+    "noisy_penguins": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    },
+    "noisy_gaussian": {
+      "test_rows_replayed": 129,
+      "full_permutation_stream_reconstructed": true,
+      "naive_marginal_rows_checked": [
+        0,
+        1999
+      ],
+      "all_efficiency_checks_passed": true,
+      "removal_ids_and_class_counts_verified": true,
+      "detection_independently_verified": true
+    }
+  }
+}

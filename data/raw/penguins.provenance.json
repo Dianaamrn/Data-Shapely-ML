@@ -1,0 +1,16 @@
+{
+  "dataset": "Palmer Penguins (simplified penguins.csv)",
+  "source_url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+  "source_page": "https://github.com/allisonhorst/palmerpenguins/blob/main/inst/extdata/penguins.csv",
+  "downloaded_at_utc": "2026-10-26T21:41:03.004240+00:00",
+  "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+  "size_bytes": 15241,
+  "license": "CC0-1.0",
+  "license_and_use_information": "https://allisonhorst.github.io/palmerpenguins/#license",
+  "data_use_information": "https://allisonhorst.github.io/palmerpenguins/#additional-data-use-information",
+  "attribution": "Data collected and made available by Kristen B. Gorman and Palmer Station Antarctica LTER.",
+  "package_citation": "Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. https://doi.org/10.5281/zenodo.3960218",
+  "original_study": "Gorman KB, Williams TD, Fraser WR (2014). Ecological Sexual Dimorphism and Environmental Variability within a Community of Antarctic Penguins (Genus Pygoscelis). https://doi.org/10.1371/journal.pone.0090081",
+  "observation_id_definition": "Zero-based CSV data-row position, excluding the header; retained unchanged after cleaning.",
+  "raw_file_policy": "Unmodified downloaded bytes. Cleaning happens in memory; notebooks never download data."
+}

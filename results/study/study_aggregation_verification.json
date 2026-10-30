@@ -1,0 +1,7 @@
+{
+  "paired_differences": "all 120 checked using exact rational correct-count arithmetic",
+  "wins_ties_losses": "all 12 groups checked",
+  "relative_accuracy": "all 36 strategy/group means independently recomputed from per-run ratios",
+  "bootstrap": "all 12 intervals reconstructed with explicit whole-run sampling loop",
+  "random_weighting": "30 trials averaged within each run; 10 equal-weight runs"
+}

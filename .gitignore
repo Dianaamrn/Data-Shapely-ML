@@ -1,0 +1,27 @@
+# Local Python environments and generated package metadata
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Temporary work, local credentials, and operating-system files
+tmp/
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# LaTeX intermediate files; retain final report PDF
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz

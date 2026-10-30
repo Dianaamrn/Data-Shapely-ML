@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Preserve downloaded source bytes exactly.
+data/raw/penguins.csv -text
